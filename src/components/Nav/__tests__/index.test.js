@@ -20,7 +20,7 @@ describe('emoji is visible', () => {
     it('insert emoji into the h2', () => {
         render(<Nav />);
         expect(screen.getByLabelText('camera')).toHaveTextContent('📸');
-    })
+    });
 });
 
 describe('links are visible', () => {
